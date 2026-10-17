@@ -12,8 +12,8 @@ FlashDeck คือแอปบัตรคำสำหรับช่วยจ�
 ## ดาวน์โหลดและเอกสาร
 
 - [ดาวน์โหลด APK รุ่นล่าสุด](https://github.com/Danielth999/Flash-Deck/releases/latest)
-- [รายงาน PDF ในโฟลเดอร์ docs](docs/) — ยังไม่มีไฟล์รายงาน PDF ใน repository
-- [ภาพหน้าจอตัวอย่างในโฟลเดอร์ screenshots](screenshots/) — จะเพิ่มภาพจริงภายหลัง
+- [รายงาน PDF ในโฟลเดอร์ docs](docs/report.pdf)
+- [ภาพหน้าจอตัวอย่างในโฟลเดอร์ screenshots](screenshots/)
 
 ## ภาพหน้าจอ
 
@@ -22,8 +22,12 @@ FlashDeck คือแอปบัตรคำสำหรับช่วยจ�
 
 ```html
 <img src="screenshots/01-login.png" width="180" alt="หน้าเข้าสู่ระบบ">
-<img src="screenshots/02-decks.png" width="180" alt="หน้าชุดบัตร">
-<img src="screenshots/03-review.png" width="180" alt="หน้าทบทวนบัตร">
+<img src="screenshots/02-home.png" width="180" alt="หน้าชุดบัตร">
+<img src="screenshots/03-card.png" width="180" alt="หน้าทบทวนบัตร">
+<img src="screenshots/04-review.png" width="180" alt="ทบทวน">
+<img src="screenshots/05-result.png" width="180" alt="ผล">
+<img src="screenshots/06-category.png" width="180" alt="หมวดหมู่">
+<img src="screenshots/07-logout.png" width="180" alt="ออกระบบ">
 ```
 
 ## ฟีเจอร์
