@@ -23,13 +23,16 @@ FlashDeck คือแอปพลิเคชันบัตรคำ (Flashcar
 ## ภาพหน้าจอตัวอย่าง
 
 <p align="center">
-  <img src="screenshots/01-login.png" width="180" alt="หน้าเข้าสู่ระบบ">
-  <img src="screenshots/02-home.png" width="180" alt="หน้าชุดบัตร">
-  <img src="screenshots/03-card.png" width="180" alt="หน้าทบทวนบัตร">
-  <img src="screenshots/04-review.png" width="180" alt="ทบทวน">
-  <img src="screenshots/05-result.png" width="180" alt="ผล">
-  <img src="screenshots/06-category.png" width="180" alt="หมวดหมู่">
-  <img src="screenshots/07-logout.png" width="180" alt="ออกระบบ">
+  <img src="screenshots/1-login.png" width="180" alt="หน้าเข้าสู่ระบบ">
+  <img src="screenshots/2-regis.png" width="180" alt="หน้าสมัครสมาชิก">
+  <img src="screenshots/3-home.png" width="180" alt="หน้าชุดบัตร">
+  <img src="screenshots/4-card.png" width="180" alt="หน้ารายการบัตรคำ">
+  <img src="screenshots/5-review.png" width="180" alt="หน้าทบทวนบัตร">
+  <img src="screenshots/6-swipe-right.png" width="180" alt="ปัดขวาเมื่อจำได้">
+  <img src="screenshots/7-swipe-left.png" width="180" alt="ปัดซ้ายเพื่อทบทวนอีก">
+  <img src="screenshots/8-result.png" width="180" alt="หน้าผลการทบทวน">
+  <img src="screenshots/9-category.png" width="180" alt="หน้าจัดการหมวดหมู่">
+  <img src="screenshots/10-profile.png" width="180" alt="หน้าโปรไฟล์">
 </p>
 
 ---
@@ -47,5 +50,4 @@ FlashDeck คือแอปพลิเคชันบัตรคำ (Flashcar
 - **การนำทางที่ง่ายดาย:** เมนูหลักรองรับการสลับไปมาระหว่าง หน้าชุดบัตร / หมวดหมู่ / บัญชีผู้ใช้
 
 ---
-
 
