@@ -500,30 +500,22 @@ class _AccountScreen extends StatelessWidget {
               padding: const EdgeInsets.all(AppTheme.space24),
               child: Column(
                 children: [
-                  Container(
-                    width: 64,
-                    height: 64,
-                    decoration: BoxDecoration(
-                      color: AppTheme.greenSoft,
-                      borderRadius: BorderRadius.circular(AppTheme.radius24),
-                    ),
-                    child: const Icon(
-                      Icons.person_outline,
-                      color: AppTheme.green,
-                      size: 32,
-                    ),
-                  ),
-                  const SizedBox(height: AppTheme.space16),
                   Text(
-                    'บัญชี FlashDeck',
+                    'โปรไฟล์ FlashDeck',
                     textAlign: TextAlign.center,
                     style: Theme.of(context).textTheme.titleLarge,
                   ),
+                  const SizedBox(height: AppTheme.space16),
+                  const _ProfileTile(
+                    key: ValueKey('profile-dan'),
+                    imagePath: 'assets/profiles/dan.jpg',
+                    name: 'นาย วีระชัย เฮืองฮุง',
+                  ),
                   const SizedBox(height: AppTheme.space8),
-                  Text(
-                    'ชุดบัตรของคุณจัดเก็บไว้กับบัญชีที่เข้าสู่ระบบ',
-                    textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.bodyMedium,
+                  const _ProfileTile(
+                    key: ValueKey('profile-ket'),
+                    imagePath: 'assets/profiles/ket.webp',
+                    name: 'นายอรัณ ปิ่นอนงค์',
                   ),
                   const SizedBox(height: AppTheme.space24),
                   OutlinedButton.icon(
@@ -538,6 +530,26 @@ class _AccountScreen extends StatelessWidget {
           ),
         ],
       ),
+    );
+  }
+}
+
+class _ProfileTile extends StatelessWidget {
+  const _ProfileTile({required this.imagePath, required this.name, super.key});
+
+  final String imagePath;
+  final String name;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListTile(
+      contentPadding: const EdgeInsets.symmetric(horizontal: AppTheme.space8),
+      leading: CircleAvatar(
+        radius: 28,
+        backgroundColor: AppTheme.greenSoft,
+        backgroundImage: AssetImage(imagePath),
+      ),
+      title: Text(name),
     );
   }
 }

@@ -708,6 +708,10 @@ void main() {
 
     await tester.tap(find.byKey(const ValueKey('tab-account')));
     await tester.pumpAndSettle();
+    expect(find.text('นาย วีระชัย เฮืองฮุง'), findsOneWidget);
+    expect(find.text('นายอรัณ ปิ่นอนงค์'), findsOneWidget);
+    expect(find.byKey(const ValueKey('profile-dan')), findsOneWidget);
+    expect(find.byKey(const ValueKey('profile-ket')), findsOneWidget);
     await tester.tap(find.byKey(const ValueKey('sign-out-button')));
     await tester.pumpAndSettle();
     await tester.tap(find.widgetWithText(FilledButton, 'ออกจากระบบ'));
