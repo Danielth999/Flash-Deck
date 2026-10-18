@@ -9,6 +9,7 @@ FlashDeck คือแอปพลิเคชันบัตรคำ (Flashcar
 - 📱 [ดาวน์โหลดไฟล์ APK รุ่นล่าสุด](https://github.com/Danielth999/Flash-Deck/releases/latest)
 - 📄 [รายงานวิจัย/โครงการ PDF (โฟลเดอร์ docs)](docs/report.pdf)
 - 🖼️ [คลังภาพหน้าจอทั้งหมด (โฟลเดอร์ screenshots)](screenshots/)
+- 🖼️ [วิดิโอแนะนำ](https://drive.google.com/file/d/1QTQqldDH1Y5Qxh3V0xPJ1xc84YueHiL2/view?usp=sharing)
 
 ---
 
